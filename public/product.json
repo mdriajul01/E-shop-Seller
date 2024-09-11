@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S23",
+        "price": 799.00,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Cream-3448.jpg",
+        "details": "The latest Samsung Galaxy S23 with high performance and stunning display.",
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S23 Ultra",
+        "price": 1199.00,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Ultra-Sky-Blue-2618.jpg",
+        "details": "Samsung Galaxy S23 Ultra with an advanced camera system and high-resolution display.",
+        "rating": 4.9
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy A54",
+        "price": 499.00,
+        "image": "https://fairelectronics.com.bd/media/catalog/product/cache/01cd8b6e84de5ba656ee8bb28f2212b1/a/5/a54-v.png",
+        "details": "Affordable Samsung Galaxy A54 with a balanced feature set and great performance.",
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "name": "Samsung Galaxy Z Fold 5",
+        "price": 1799.00,
+        "image": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Z-Fold5-Blue-Custom-Mac-BD.jpg?v=1693119336",
+        "details": "Innovative Samsung Galaxy Z Fold 5 with a foldable screen and high-end specs.",
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Samsung Galaxy Z Flip 5",
+        "price": 999.00,
+        "image": "https://images.samsung.com/is/image/samsung/assets/bd/smartphones/galaxy-z-flip5/images/galaxy-z-flip5-highlights-sustainability-mo.jpg?imbypass=true",
+        "details": "Stylish Samsung Galaxy Z Flip 5 with a compact design and foldable screen.",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy A34",
+        "price": 399.00,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-A34-5G-Awesome-Graphite-4542.jpg",
+        "details": "Samsung Galaxy A34 offering great value with solid performance and features.",
+        "rating": 4.4
+    },
+    {
+        "id": 7,
+        "name": "Samsung Galaxy M54",
+        "price": 599,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-M54-5G-Silver-1969.jpg",
+        "details": "Samsung Galaxy M54 with a large display and powerful battery life.",
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Samsung Galaxy Note 20 Ultra",
+        "price": 949,
+        "image": "https://inversionesczhn.com/wp-content/uploads/2024/01/0000000276_1639694976.jpeg",
+        "details": "Samsung Galaxy Note 20 Ultra with S Pen functionality and high performance.",
+        "rating": 4.8
+    },
+    {
+        "id": 9,
+        "name": "Samsung Galaxy A74",
+        "price": 449,
+        "image": "https://fdn.gsmarena.com/imgroot/news/22/12/galaxy-a74-will-not-arrive/inline/-1200/gsmarena_001.jpg",
+        "details": "Versatile Samsung Galaxy A74 with a powerful processor and large screen.",
+        "rating": 4.4
+    },
+    {
+        "id": 10,
+        "name": "Samsung Galaxy M34",
+        "price": 429.00,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-M34-5G-Midnight-Blue-2195.jpg",
+        "details": "Samsung Galaxy M34 with long battery life and good performance for its class.",
+        "rating": 4.3
+    },
+    {
+        "id": 11,
+        "name": "Samsung Galaxy S22",
+        "price": 749,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S22-5G-Violet-6458.jpg",
+        "details": "Samsung Galaxy S22 with a compact design and high-end features.",
+        "rating": 4.7
+    },
+    {
+        "id": 12,
+        "name": "Samsung Galaxy A53",
+        "price": 499,
+        "image": "https://dvf83rt16ac4w.cloudfront.net/upload/product/20220331_1648718243_938895.png",
+        "details": "Mid-range Samsung Galaxy A53 offering good balance of performance and price.",
+        "rating": 4.5
+    },
+    {
+        "id": 13,
+        "name": "Samsung Galaxy Z Flip 4",
+        "price": 899.00,
+        "image": "https://m.media-amazon.com/images/I/610PI9zfgxL.jpg",
+        "details": "Previous generation foldable Samsung Galaxy Z Flip 4 with premium features.",
+        "rating": 4.6
+    },
+    {
+        "id": 14,
+        "name": "Samsung Galaxy S21 FE",
+        "price": 699,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/4204-91680.jpg",
+        "details": "Samsung Galaxy S21 FE with flagship-level specs at a more affordable price.",
+        "rating": 4.5
+    },
+    {
+        "id": 15,
+        "name": "Samsung Galaxy A52",
+        "price": 449,
+        "image": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Samsung-Galaxy-A52-4G-White.jpg",
+        "details": "Samsung Galaxy A52 offering solid performance and a good display.",
+        "rating": 4.4
+    },
+    {
+        "id": 16,
+        "name": "Samsung Galaxy M32",
+        "price": 399.00,
+        "image": "https://www.91-cdn.com/hub/wp-content/uploads/2021/06/samsung-galaxy-m32-image-feat.jpg",
+        "details": "Samsung Galaxy M32 with a large battery and great value for the price.",
+        "rating": 4.3
+    },
+    {
+        "id": 17,
+        "name": "Samsung Galaxy Note 20",
+        "price": 849,
+        "image": "https://image-us.samsung.com/SamsungUS/sis/N20/mweb/1.jpg",
+        "details": "Samsung Galaxy Note 20 with S Pen support and high performance.",
+        "rating": 4.6
+    },
+    {
+        "id": 18,
+        "name": "Samsung Galaxy S21",
+        "price": 699,
+        "image": "https://www.gizmochina.com/wp-content/uploads/2020/12/1-12-500x500.jpg",
+        "details": "Samsung Galaxy S21 with flagship features and sleek design.",
+        "rating": 4.7
+    },
+    {
+        "id": 19,
+        "name": "Samsung Galaxy A71",
+        "price": 549,
+        "image": "https://earifin.com/public/uploads/all/LnJsNlH3TPtdn84xlh3tCBvXeMAbjv57vbxRz6Ys.jpg",
+        "details": "Samsung Galaxy A71 with a large screen and good overall performance.",
+        "rating": 4.4
+    },
+    {
+        "id": 20,
+        "name": "Samsung Galaxy M51",
+        "price": 479,
+        "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/galaxym5455header.jpg",
+        "details": "Samsung Galaxy M51 with an enormous battery and solid performance.",
+        "rating": 4.5
+    }
+]

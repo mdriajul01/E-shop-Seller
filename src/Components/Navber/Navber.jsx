@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import logo from "../../../public/image/logo.png";
-import { NavLink } from "react-router-dom";
+import { Navigate, NavLink, useNavigate } from "react-router-dom";
 import { RiLoginCircleFill } from "react-icons/ri";
 import { MdShoppingCart } from "react-icons/md";
 import { FaUserTag } from "react-icons/fa6";
@@ -11,6 +11,7 @@ import { GiHamburgerMenu } from "react-icons/gi"; // Added hamburger icon for mo
 
 function Navber() {
   const [isOpen, setIsOpen] = React.useState(false);
+  const Navigate = useNavigate();
 
   return (
     <section className="bg-[#070242] fixed top-0 left-0 right-0 z-50">
@@ -19,7 +20,7 @@ function Navber() {
         className="flex items-center justify-between md:justify-around px-4 md:px-0"
       >
         {/* Logo */}
-        <div id="img" className="h-fit w-28 my-3">
+        <div id="img" className="h-fit w-20 ">
           <img src={logo} alt="Logo" />
         </div>
 
@@ -153,7 +154,8 @@ function Navber() {
               </NavLink>
             </li>
             <li>
-              <button className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold">
+              <button onClick={() => Navigate("/login")}
+                aria-level="Login" className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold">
                 LogIn
                 <RiLoginCircleFill className="text-[#0f025a] h-auto w-8 hover:text-[#ff6600]" />
               </button>

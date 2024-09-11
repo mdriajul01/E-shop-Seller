@@ -5,6 +5,7 @@ import './App.css'
 import Navber from './Components/Navber/Navber'
 import Home from './Components/Home/Home'
 import Fotter from './Components/Fotter/Fotter'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <Navber></Navber>
-      <Home></Home>
+      <Outlet></Outlet>
       <Fotter></Fotter>
     </>
   )
