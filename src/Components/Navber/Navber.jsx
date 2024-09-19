@@ -11,7 +11,7 @@ import { GiHamburgerMenu } from "react-icons/gi"; // Added hamburger icon for mo
 
 function Navber() {
   const [isOpen, setIsOpen] = React.useState(false);
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <section className="bg-[#070242] fixed top-0 left-0 right-0 z-50">
@@ -85,7 +85,10 @@ function Navber() {
 
         {/* Buttons - hidden on mobile, visible on medium and larger screens */}
         <div id="buttons" className="hidden md:flex text-white gap-4">
-          <button className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold">
+          <button
+            onClick={() => navigate("/login")}
+            className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold"
+          >
             LogIn
             <RiLoginCircleFill className="text-[#0f025a] h-auto w-8 hover:text-[#ff6600]" />
           </button>
@@ -154,8 +157,11 @@ function Navber() {
               </NavLink>
             </li>
             <li>
-              <button onClick={() => Navigate("/login")}
-                aria-level="Login" className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold">
+              <button
+                onClick={() => navigate("/login")}
+                aria-level="Login"
+                className="flex btn gap-1 btn-m my-auto hover:text-[#ff6600] font-bold"
+              >
                 LogIn
                 <RiLoginCircleFill className="text-[#0f025a] h-auto w-8 hover:text-[#ff6600]" />
               </button>

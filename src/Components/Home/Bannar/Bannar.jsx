@@ -4,7 +4,7 @@ import rating from "../../../../public/Rating.json";
 import identify from "../../../../public/identify.json";
 import identify2 from "../../../../public/identify2.json";
 import Lottie from "lottie-react";
-import seller from "../../../../public/sellerProfile.json"
+import seller from "../../../../public/sellerProfile.json";
 const Bannar = () => {
   const [isOpen, setisOpen] = useState(false);
   return (
@@ -264,7 +264,7 @@ const Bannar = () => {
 
               <div className="flex justify-around my-auto mt-5">
                 <p className="text-[#f800f8ee] text-lg text-start mr-10 ">
-                  {product.price}
+                  ${product.price}
                 </p>
                 <Lottie
                   animationData={rating}
